@@ -1,0 +1,170 @@
+body {
+	background-color: #FFF7F1;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: #FFB5DA;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.logo {
+	color: #AD88C6;
+	cursor:pointer;
+}
+
+.logo:hover {
+	color: #AD88C6;
+	transform: scale(1.2);
+	transition: all ease .5s;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	list-style: none;
+	padding-right: 30px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #AD88C6;
+}
+
+nav li a:hover {
+	color: #65B741;
+	text-decoration: underline;
+	text-underline-offset:8px;
+}
+
+.title-hero {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.title-hero h1 {
+	color: #AD88C6;
+}
+
+.title-hero p {
+	color: black;
+}
+
+
+
+.image-hero img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 2px 4px 10px greenyellow;
+}
+
+.image-hero img:hover {
+	transform: scale(.8);
+	transition: 2s;
+}
+
+#about {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about h2 {
+	padding-top: 40px;
+	color:#AD88C6 ;
+}
+
+hr {
+	width: 30%;
+}
+
+#product {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#menu h2 {
+	padding-top: 40px;
+	color: #FFB534 ;
+}
+
+.cards {
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.card {
+	background-color:#6420AA ;
+	width: 350px;
+	border: 1px solid #6420AA;
+	border-radius: 15px;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.card img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+.container {
+	text-align: center;
+    padding-bottom: 10px;
+}
+
+.card a {
+	text-decoration: none;
+	color: black;
+	margin-left: 105px;
+	border: 1px solid green;
+	padding: 10px 40px;
+	border-radius: 12px;
+	box-shadow: 1px 2px 4px;
+}
+
+.card a:hover {
+	background-color: green;
+	color: whitesmoke;
+}
+
+#contact {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-contact {
+    width: 50%;
+}
+
+.image-contact img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+footer {
+	width: 95%;
+	margin: 40px auto;
+	background-color: #FFB5DA
+	padding:20px;
+	text-align: center;
+}

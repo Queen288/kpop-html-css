@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+	background-color: whitesmoke;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: gold;
+}
+
+.logo {
+	padding-left: 30px;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav ul li {
+	list-style-type: none;
+	padding: 0 30px;
+}
+
+nav ul li a {
+	color: gostwhite;
+	padding: 8px 15px:;
+	background-color: #F8E559
+	color: purple;
+	border-radius: 12px;
+	box-shadow: 1px 2px 3px #F8E559;
+
+}
+
+.call {
+	padding-right: 30px
+}
+
+.call a {
+	text-decoration: none;
+	color: whitesmoke
+	padding: 8px 15px;
+	background-color: #F8E559;
+	color: puple;
+}
